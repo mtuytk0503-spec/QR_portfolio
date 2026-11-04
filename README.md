@@ -7,7 +7,7 @@
 ## 公開する順番
 
 1. GitHubで公開用リポジトリを新規作成する（例：qr-work-demo）。GitHub Freeの場合はPublicを選びます。
-2. このフォルダーの中身をリポジトリの一番上へアップロードします。フォルダーをもう一段入れず、index.htmlが直下になるようにしてください。vendorフォルダーも必要です。
+2. このフォルダーの中身をリポジトリの一番上へアップロードします。フォルダーをもう一段入れず、index.htmlが直下になるようにしてください。html5-qrcode.min.jsとライセンスファイルも同じ階層に含めてください。
 3. Settings → Pages → Build and deploymentでSourceを「Deploy from a branch」にします。
 4. Branchはmain、Folderは / (root) を選び、Save。
 5. デプロイ完了後、Pages画面に表示されたHTTPSのURLを開きます。実際に発行されたURLを使用してください。
